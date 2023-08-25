@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --timeout 5000"
+    "test": "mocha --timeout 5000",
+    "dev": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
